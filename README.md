@@ -14,9 +14,13 @@ Step: 4 -> Once the database importing is completed then go to the XAMPP/WAMP fo
 Step: 5 -> After configuring the database connection then the final step is to configure SMTP server settings. Open the Email.php file in lib folder and write your details into these
 
   $this->mail->Host       = 'enter-email-server';                   //Set the SMTP server to send through
+  
   $this->mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+  
   $this->mail->Username   = 'enter-email-address';                  //SMTP username
+  
   $this->mail->Password   = 'enter-password';                       //SMTP Password
+  
   
   # Project Features:
   1) Secure user signup and login
